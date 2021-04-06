@@ -1,0 +1,52 @@
+@media (max-width: 1100px) {
+    html{
+        font-size: 9px;
+    }
+    .about{
+        padding: 5rem 0;
+    }
+}
+@media (max-width: 992px){
+    html{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 60rem) {
+    #burger {
+        top: 90%;
+        right: 12%;
+    }
+}
+@media (max-width: 768px) {
+    html{
+        font-size: 7px;
+    }
+
+    #burger{
+        position: fixed;
+        z-index: 101;
+    }
+    #nav{
+        z-index: 100;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .col-sm-6{
+        width: 100%;
+    }
+    .about{
+        padding-bottom: 20rem;
+    }
+    footer{
+        height: 50vh;
+    }
+}
+@media (max-width: 520px) {
+    .sky{
+        width: 40rem;
+    }
+    footer{
+        height: 90vh;
+    }
+}

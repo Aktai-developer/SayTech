@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+          integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw=="
+          crossorigin="anonymous"/>
+<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"-->
+<!--          type="text/css"/>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/lib.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>IT_DUBAI</title>
+</head>
+<body>
+<header>
+    <a class='bx bxl-redux logo' href="index.html"></a>
+    <div id="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div id="nav">
+        <ul>
+            <li class="nav-item__list">
+                <a class='bx bxl-instagram nav-item'></a>
+            </li>
+            <li class="nav-item__list">
+                <a class='bx bxl-facebook-square nav-item'></a>
+            </li>
+            <li class="nav-item__list">
+                <a class='bx bxl-twitter nav-item'></a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</header>
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-item">
+                <h1 class="hero-title">SayTech LLC DUBAI</h1>
+                <p class="hero-desc">WE BUILD FUTURE, <br> BECOME A PART OF US</p>
+            </div>
+        </div>
+        <a class="btn" data-fancybox data-src="#modal" href="javascript:;">CONTACT US</a>
+        <div style="display: none;" id="modal">
+            <h2 class="comment">Связаться с Нами</h2>
+            <form action="#" method="post">
+                <div class="left-form">
+                    <input type="text" name="username" id="username" placeholder="Имя">
+                    <input class="email-input" type="email" name="email" id="email" placeholder="Почта">
+                    <button>Отправить</button>
+                </div>
+                <div class="right-form">
+                    <textarea name="comment" id="coment" rows="10" placeholder="Написать комментарий..."></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">SAYTECH LLC DUBAI</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="robot">
+                        <svg  viewBox="0 0 512 512" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                                <path class="move wow animated bounceInLeft" data-wow-delay=".6s"
+                                      d="M251.682 145.144C277.595 145.144 298.606 124.133 298.606 98.2201C298.606 72.3035 277.595 51.2961 251.682 51.2961C225.766 51.2961 204.759 72.3035 204.759 98.2201C204.786 124.121 225.778 145.113 251.682 145.144V145.144ZM251.682 68.359C268.171 68.359 281.54 81.7274 281.54 98.2201C281.54 114.709 268.171 128.081 251.682 128.081C235.19 128.081 221.821 114.709 221.821 98.2201C221.821 81.7274 235.19 68.359 251.682 68.359V68.359Z"
+                                      fill="black"/>
+                                <path class="move wow animated fadeIn" data-wow-delay="2s"
+                                      d="M264.477 102.485C264.477 107.195 260.657 111.014 255.947 111.014C251.233 111.014 247.414 107.195 247.414 102.485C247.414 97.7709 251.233 93.9514 255.947 93.9514C260.657 93.9514 264.477 97.7709 264.477 102.485Z"
+                                      fill="black"/>
+                                <path class="move wow animated bounceInRight" data-wow-delay=".9s"
+                                      d="M362.593 145.144C388.506 145.144 409.513 124.133 409.513 98.2201C409.513 72.3035 388.506 51.2961 362.593 51.2961C336.677 51.2961 315.669 72.3035 315.669 98.2201C315.697 124.121 336.688 145.113 362.593 145.144V145.144ZM362.593 68.359C379.082 68.359 392.45 81.7274 392.45 98.2201C392.45 114.709 379.082 128.081 362.593 128.081C346.101 128.081 332.732 114.709 332.732 98.2201C332.732 81.7274 346.101 68.359 362.593 68.359V68.359Z"
+                                      fill="black"/>
+                                <path class="move wow animated fadeIn" data-wow-delay="2s"
+                                      d="M366.858 102.485C366.858 107.195 363.038 111.014 358.325 111.014C353.615 111.014 349.795 107.195 349.795 102.485C349.795 97.7709 353.615 93.9514 358.325 93.9514C363.038 93.9514 366.858 97.7709 366.858 102.485V102.485Z"
+                                      fill="black"/>
+                                <path class="move wow animated fadeIn" data-wow-delay="2s"
+                                      d="M290.073 170.736H264.477C259.767 170.736 255.947 174.556 255.947 179.27C255.947 183.98 259.767 187.799 264.477 187.799H290.073C294.783 187.799 298.606 183.98 298.606 179.27C298.606 174.556 294.783 170.736 290.073 170.736Z"
+                                      fill="black"/>
+                                <path class="move"
+                                      d="M358.325 315.773C358.325 320.487 354.505 324.306 349.795 324.306C345.081 324.306 341.262 320.487 341.262 315.773C341.262 311.063 345.081 307.243 349.795 307.243C354.505 307.243 358.325 311.063 358.325 315.773V315.773Z"
+                                      fill="black"/>
+                                <path class="move"
+                                      d="M5.06537 370.238C6.02221 374.854 10.5369 377.823 15.1531 376.87C19.7655 375.913 22.7336 371.398 21.7807 366.786L18.3087 349.992L38.1796 341.541C42.749 347.735 49.3687 352.105 56.8633 353.874L57 375.417L40.2105 378.908C35.934 379.799 33.0205 383.774 33.458 388.117C33.8993 392.464 37.547 395.776 41.9132 395.791C42.4873 395.791 43.0614 395.733 43.6199 395.612L67.2557 390.722C71.2431 389.91 74.1019 386.391 74.0785 382.322L73.8988 353.695C91.4811 349.145 102.334 331.527 98.4875 313.777C101.249 312.262 103.709 310.254 105.748 307.856L119.44 291.415V418.154C119.46 431.296 127.052 443.254 138.936 448.866C137.327 454.119 136.507 459.583 136.503 465.078V467.464C128.595 474.517 125.872 485.726 129.661 495.622C133.453 505.519 142.971 512.037 153.566 512.002H230.351C240.95 512.037 250.468 505.519 254.256 495.622C258.048 485.726 255.326 474.517 247.414 467.464V465.078C247.402 460.766 246.879 456.47 245.863 452.28H291.627C290.608 456.47 290.089 460.766 290.073 465.078V467.464C282.164 474.517 279.438 485.726 283.231 495.622C287.023 505.519 296.54 512.037 307.136 512.002H383.921C394.516 512.037 404.034 505.519 407.826 495.622C411.618 485.726 408.892 474.517 400.984 467.464V465.078C400.976 452.959 396.981 441.181 389.611 431.565C391.462 427.336 392.427 422.77 392.45 418.154V351.656L402.015 357.893C402.128 358.252 402.151 358.619 402.273 358.971C407.951 376.225 426.318 385.84 443.737 380.681L458.144 405.356C459.667 407.988 462.475 409.617 465.517 409.621C466.459 409.617 467.396 409.464 468.29 409.16L491.11 401.345C494.023 400.38 496.195 397.928 496.796 394.917C497.397 391.906 496.335 388.805 494.015 386.797C491.695 384.786 488.477 384.181 485.583 385.204L469.372 390.757L458.487 372.081C464.061 366.778 467.548 359.654 468.321 352L489.739 349.168L495.292 365.376C496.23 368.321 498.686 370.527 501.717 371.144C504.744 371.761 507.868 370.691 509.887 368.352C511.902 366.009 512.492 362.759 511.434 359.857L503.619 337.026C502.303 333.183 498.456 330.805 494.429 331.336L466.045 335.089C462.959 327.325 457.105 320.979 449.614 317.276C446.349 315.73 442.862 314.711 439.281 314.254L392.45 266.076V231.814C423.51 218.234 443.6 187.573 443.643 153.673V111.014H462.276C466.431 122.77 478.448 129.819 490.735 127.71C503.021 125.601 512 114.951 512 102.485C512 90.0186 503.021 79.3645 490.735 77.2595C478.448 75.1505 466.431 82.1999 462.276 93.9514H443.643V47.1485C443.608 21.1812 422.565 0.138665 396.598 0.107422H217.674C191.707 0.138665 170.664 21.1812 170.633 47.1485V93.9514H152C147.845 82.1999 135.824 75.1505 123.541 77.2595C111.254 79.3645 102.272 90.0186 102.272 102.485C102.272 114.951 111.254 125.601 123.541 127.71C135.824 129.819 147.845 122.77 152 111.014H170.633V153.673V154.423C141.229 158.903 119.491 184.163 119.44 213.907V231.899C104.209 235.965 90.743 244.944 81.1356 257.445L66.5449 275.129C63.7017 278.57 61.8232 282.709 61.1124 287.115C60.1712 287.228 59.2261 287.228 58.2888 287.415C40.562 291.028 28.7988 307.931 31.5755 325.806L5.18644 337.026C1.44893 338.62 -0.648295 342.627 0.17966 346.606L5.06537 370.238ZM486.298 93.9514C491.012 93.9514 494.832 97.7709 494.832 102.485C494.832 107.195 491.012 111.014 486.298 111.014C481.588 111.014 477.769 107.195 477.769 102.485C477.769 97.7709 481.588 93.9514 486.298 93.9514V93.9514ZM127.974 111.014C123.26 111.014 119.44 107.195 119.44 102.485C119.44 97.7709 123.26 93.9514 127.974 93.9514C132.684 93.9514 136.503 97.7709 136.503 102.485C136.503 107.195 132.684 111.014 127.974 111.014ZM225.813 447.05C225.813 447.16 225.957 447.246 226.008 447.355C228.203 451.546 229.597 456.111 230.121 460.809H153.796C154.32 456.185 155.679 451.694 157.815 447.562L157.893 447.382C164.474 434.748 177.51 426.801 191.753 426.73C205.997 426.66 219.107 434.483 225.813 447.05ZM230.351 494.935H153.566C148.856 494.935 145.037 491.116 145.037 486.406C145.037 481.692 148.856 477.872 153.566 477.872H230.351C235.065 477.872 238.884 481.692 238.884 486.406C238.884 491.116 235.065 494.935 230.351 494.935ZM375.387 273.118V349.899H255.947C251.233 349.899 247.414 346.079 247.414 341.369V281.647C247.414 276.937 251.233 273.118 255.947 273.118H375.387ZM383.69 460.809H307.366C307.89 456.115 309.284 451.561 311.471 447.375C311.522 447.253 311.623 447.168 311.674 447.05C319.594 432.221 336.235 424.266 352.748 427.422C369.26 430.577 381.796 444.106 383.69 460.809V460.809ZM383.921 494.935H307.136C302.426 494.935 298.606 491.116 298.606 486.406C298.606 481.692 302.426 477.872 307.136 477.872H383.921C388.631 477.872 392.45 481.692 392.45 486.406C392.45 491.116 388.631 494.935 383.921 494.935V494.935ZM450.704 342.4C453.336 350.102 450.161 358.592 443.12 362.677C436.082 366.762 427.135 365.306 421.753 359.197C416.375 353.089 416.059 344.029 420.999 337.561C425.94 331.094 434.762 329.012 442.073 332.597C446.146 334.578 449.255 338.108 450.704 342.4V342.4ZM418.839 317.761C412.364 321.069 407.131 326.38 403.928 332.906C403.218 334.429 402.628 336.007 402.159 337.624L392.45 331.293V290.606L418.839 317.761ZM187.696 47.1485C187.711 30.5972 201.123 17.1859 217.674 17.1703H396.598C413.149 17.1859 426.56 30.5972 426.58 47.1485V153.673C426.537 191.349 396.004 221.886 358.325 221.925H255.947C218.268 221.886 187.735 191.349 187.696 153.673V47.1485ZM172.527 171.463C180.963 210.806 215.709 238.933 255.947 238.988H358.325C364.058 238.996 369.771 238.425 375.387 237.285V256.055H255.947C241.81 256.055 230.351 267.513 230.351 281.647V341.369C230.351 355.503 241.81 366.961 255.947 366.961H375.387V418.154V418.4C363.027 410.441 347.999 407.738 333.634 410.894C319.274 414.049 306.765 422.805 298.876 435.217H238.611C228.648 419.568 211.507 409.949 192.96 409.605C174.413 409.265 156.925 418.24 146.392 433.51C140.389 430.753 136.53 424.762 136.503 418.154V281.811C140.908 282.698 145.228 283.967 149.415 285.607C159.772 289.606 171.527 286.404 178.42 277.699L179.326 276.605C184.38 270.228 186.098 261.823 183.958 253.969C181.935 246.248 176.35 239.956 168.926 237.027C158.577 232.962 147.614 230.681 136.503 230.271V213.907C136.554 192.868 151.773 174.931 172.527 171.463V171.463ZM94.2813 268.314C102.584 256.992 115.086 249.478 128.981 247.463C130.582 247.279 132.195 247.185 133.808 247.181C143.677 247.326 153.433 249.259 162.611 252.887C165.013 253.844 166.813 255.895 167.45 258.398C168.176 260.979 167.649 263.756 166.024 265.889L165.169 266.955C162.877 269.853 158.975 270.938 155.515 269.653C148.454 266.748 140.99 264.951 133.383 264.33C130.633 264.295 127.903 264.76 125.318 265.701C125.166 265.752 125.013 265.846 124.869 265.896L124.509 266.06C117.773 268.865 111.891 273.387 107.447 279.175L92.6957 296.902C92.1294 297.515 91.4811 298.046 90.7664 298.479C88.7825 296.125 86.4861 294.047 83.9436 292.313C82.0846 291.098 80.1163 290.067 78.062 289.224C78.3549 288.068 78.8939 286.986 79.6398 286.06L94.2813 268.314ZM50.9075 311.465C54.0982 306.529 59.6166 303.6 65.4943 303.724C71.3681 303.849 76.7576 307.013 79.7375 312.078V312.141C83.0766 317.733 82.9399 324.74 79.386 330.2C74.2035 338.073 63.6197 340.256 55.7463 335.074C47.8729 329.891 45.6898 319.303 50.8723 311.43L50.9075 311.465Z"
+                                      fill="black"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0">
+                                    <rect width="512" height="512" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="cover wow animated bounceInRight" data-wow-delay=".6s">
+                        <h2 class="section-heading black">СОВРЕМЕННЫЕ МАТЕРИАЛЫ</h2>
+                        <p class="section-desc">Многие студенты получают знания из соответствующей литературы, но нужно
+                            понимать на момент выхода книги она уже содержит в себе устаревшие материалы, IT-технологии
+                            развиваются быстрее чем вы думаете и вам нужно успевать следить за развитием рынка. Мы даем
+                            самые актуальные знания на момент обучение на курсе и при любых изменениях, оперативно
+                            адаптируем курсы под современный рынок</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="cover wow animated bounceInLeft" data-wow-delay=".6s">
+                        <h2 class="section-heading black">ПОДДЕРЖКА ПРИ ТРУДОУСТРОЙСТВЕ</h2>
+                        <p class="section-desc">В течении всего курса, мы не только даем новейшие знания по направлению
+                            Front-end, но и обучаем ведению технических аккаунтов в социальных сетях. Очень важно до
+                            окончания обучения, собрать базу рекрутеров в крупнейшем сервисе поиска работы Linked in.
+                            Наша цель, заставить работодателей бороться за вас </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1502892247800-37f114ca1e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                         alt="" class="wow animated bounceInRight black-and-white" data-wow-delay="1s">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="something">
+        <div class="planet-div">
+
+        </div>
+    </section>
+    <section class="for">
+        <div class="container">
+            <div class="sky">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+            </div>
+            <div class="border"></div>
+            <h2 class="section-title gray border-bottom scob">ДЛЯ КОГО ЭТОТ BOOTCAMP?</h2>
+            <div class="row">
+                <div class="col-6 d-flex">
+                    <div class="cover wow animated bounceInLeft" data-wow-delay=".6s">
+                        <h2 class="section-heading gray">Для начинающих с самого "0"</h2>
+                        <p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur error iusto! Consequuntur ex illo nulla tempora unde! Et, numquam. </p>
+                    </div>
+                </div>
+                <div class="col-6 d-flex">
+                    <div class="cover wow animated bounceInRight" data-wow-delay=".6s">
+                        <h2 class="section-heading gray">Для тех, кто устал работать на "Дядю"</h2>
+                        <p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem ea minus numquam odit officia perspiciatis quidem quo quos, ratione. </p>
+                    </div>
+                </div>
+                <div class="col-6 d-flex">
+                    <div class="cover wow animated bounceInLeft" data-wow-delay=".6s">
+                        <h2 class="section-heading gray">Для тех, кто уже немного знаком с <br> версткой и хочет
+                            продолжить развиваться</h2>
+                        <p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta harum ipsa, minus nisi reprehenderit sed. Ducimus facere officiis sapiente! </p>
+                    </div>
+                </div>
+                <div class="col-6 d-flex">
+                    <div class="cover wow animated bounceInRight" data-wow-delay=".6s">
+                        <h2 class="section-heading gray">Для милых дам</h2>
+                        <p class="section-desc">Способности девушек нас действительно поразили, они готовы много и
+                            усердно работать. Так что если ты девушка, и раздумываешь пойти ли тебе или нет, то
+                            однозначный ответ — ДА! Раскрой свой потенциал вместе с нами! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="professional-one">
+        <div class="container">
+            <h2 class="section-title border-bottom-black scob">ВАШЕ РЕЗЮМЕ ПОСЛЕ ОБУЧЕНИЯ</h2>
+        </div>
+        <div class="container border-bottom-black">
+            <div class="row">
+                <div class="col-6">
+                    <div class="professional-item">
+                        <img src="./pics/developer.png" alt="">
+                        <div class="professional-desc">
+                            <h4 class="professional-heading">Должность</h4>
+                            <h3 class="professional-sub-heading">Веб-разработчик</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="professional-desc text-r">
+                        <h4 class="professional-heading">Зарплата от:</h4>
+                        <h3 class="professional-sub-heading">1500$</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prof">
+       <div class="container">
+
+       </div>
+    </section>
+    <section class="our-team">
+        <div class="container">
+            <h2 class="section-title border-bottom-black scob">НАША КОМАНДА</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="xxx" alt="Team Image"/>
+                        </div>
+                        <div class="profile-content">
+                            <h2 class="title">XXXXXX
+                                <span>Основатель компании</span>
+                            </h2>
+                            <ul class="social-link">
+                                <li><a href="#" class='bx bxl-facebook team-but'></a></li>
+                                <li><a href="#" class='bx bxl-instagram team-but' ></a></li>
+                                <li><a href="#" class='bx bxl-twitter team-but' ></a></li>
+                                <li><a href="#" class='bx bxl-youtube team-but' ></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="our-desc">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci architecto cupiditate deserunt doloremque ea eveniet nam possimus quidem reiciendis!
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="xxxx" alt="Team Image"/>
+                        </div>
+                        <div class="profile-content">
+                            <h2 class="title">XXXXXXX
+                                <span>Основатель компании</span>
+                            </h2>
+                            <ul class="social-link">
+                                <li><a href="#" class='bx bxl-facebook team-but'></a></li>
+                                <li><a href="#" class='bx bxl-instagram team-but' ></a></li>
+                                <li><a href="#" class='bx bxl-twitter team-but' ></a></li>
+                                <li><a href="#" class='bx bxl-youtube team-but' ></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="our-desc">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, aspernatur corporis debitis libero magnam nesciunt porro quasi quo soluta vitae.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="XXXX" alt="Team Image"/>
+                        </div>
+                        <div class="profile-content">
+                            <h2 class="title">XXXXXX
+                                <span>Сооснователь компании, преподаватель</span>
+                            </h2>
+                            <ul class="social-link">
+                                <li><a href="#" class='bx bxl-facebook team-but'></a></li>
+                                <li><a href="#" class='bx bxl-instagram team-but' ></a></li>
+                                <li><a href="#" class='bx bxl-twitter team-but' ></a></li>
+                                <li><a href="#" class='bx bxl-youtube team-but' ></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="our-desc">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aperiam cum error esse necessitatibus possimus qui quos sint voluptas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why">
+        <h2 class="section-title border-bottom-black scob">Почему Дубай?</h2>
+        <h2 class="section-title scob">Далее идут ВИДЕО, МОЖНО НА НИХ КЛИКАТЬ</h2>
+    </section>
+    <section class="video-one">
+            <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=IPUOOz30dJQ" class="spec-for-vid"></a>
+    </section>
+    <section class="video-two">
+        <a data-fancybox="gallery" href="https://youtu.be/1kutE5o0gaI" class="spec-for-vid"></a>
+    </section>
+    <section class="video-three">
+        <a data-fancybox="gallery" href="https://youtu.be/IQxfUyhQB8s" class="spec-for-vid"></a>
+    </section>
+    <footer>
+        <nav class="footer-inner">
+            <div class="footer-item">
+                <h2 class="footer-heading">ITDUBAI</h2>
+
+                <h2 class="footer-desc">Make your right <br>choose and follow us<br><a class="white">Contact Us.</a>
+                </h2>
+            </div>
+
+            <div class="footer-item">
+                <h3 class="media">Social</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIN</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3 class="visit">Visit</h3>
+                <a href="#">
+                    <p>Akoya Damac DUBAI <br>
+                        254 Juniper, Ste 100 <br>
+                        Oxygen, Du, UAE 337-1500</p>
+                </a>
+
+
+                <div class="footer-item__helper">
+                    <p class="desktop"><a href="#">aktaiwien@gmail.com</a></p>
+                    <p class="desktop"><a href="#">2001:8f8:1727:733f:65a6:8858:c75:4f08</a></p>
+                </div>
+            </div>
+
+            <section class="footer-item">
+                <p><a href="#">Email us</a></p>
+                <p><a href="#">itdubai.bootcamp@gmail.com</a></p>
+            </section>
+
+            <section class="footer-item">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="#">@Edil_Kasenov</a></li>
+                    <li><a href="#">@Aida_Kasenova</a></li>
+                    <li><a href="#">@Igor_Samarcev</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-item">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </section>
+
+            <section class="footer-item">
+                <a href="#" class="footer-button">GO BACK</a>
+            </section>
+        </nav>
+    </footer>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://kit.fontawesome.com/d24b63793e.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="./js/try.js"></script>
+<script src="./js/falling.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
